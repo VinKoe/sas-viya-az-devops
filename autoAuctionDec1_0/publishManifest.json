@@ -1,0 +1,437 @@
+{
+  "creationTimeStamp": "2023-11-27T15:55:06.254043Z",
+  "createdBy": "geldmui@gelenable.sas.com",
+  "modifiedTimeStamp": "2023-11-27T15:55:06.254044Z",
+  "modifiedBy": "geldmui@gelenable.sas.com",
+  "version": 1,
+  "id": "059a4a50-acfc-4e7d-81e2-24547c9aa362",
+  "destinationName": "GitHub",
+  "destination": {
+    "creationTimeStamp": "2023-11-27T15:53:07.56862Z",
+    "createdBy": "sasboot",
+    "modifiedTimeStamp": "2023-11-27T15:53:07.568621Z",
+    "modifiedBy": "sasboot",
+    "version": 2,
+    "id": "d24ad066-bfad-4021-89ba-8880a6c619b9",
+    "name": "GitHub",
+    "description": "GitHubCLI",
+    "destinationType": "git",
+    "properties": [
+      {
+        "name": "credDomainId",
+        "value": "GitHubDomainCLIGamma"
+      },
+      {
+        "name": "remoteRepositoryURL",
+        "value": "https://github.com/VinKoe/sas-viya-az-devops.git"
+      },
+      {
+        "name": "localRepositoryLocation",
+        "value": " /mmprojectpublic"
+      },
+      {
+        "name": "userEmail",
+        "value": "vincent.koelemij@sas.com"
+      },
+      {
+        "name": "userName",
+        "value": "VinKoe"
+      },
+      {
+        "name": "codeGenerationMode",
+        "value": "MAS"
+      },
+      {
+        "name": "gitBranch",
+        "value": "main"
+      }
+    ],
+    "links": [
+      {
+        "method": "GET",
+        "rel": "up",
+        "href": "/modelPublish/destinations",
+        "uri": "/modelPublish/destinations",
+        "type": "application/vnd.sas.collection"
+      },
+      {
+        "method": "GET",
+        "rel": "self",
+        "href": "/modelPublish/destinations/GitHub",
+        "uri": "/modelPublish/destinations/GitHub",
+        "type": "application/vnd.sas.models.publishing.destination"
+      },
+      {
+        "method": "DELETE",
+        "rel": "delete",
+        "href": "/modelPublish/destinations/GitHub",
+        "uri": "/modelPublish/destinations/GitHub"
+      },
+      {
+        "method": "PUT",
+        "rel": "update",
+        "href": "/modelPublish/destinations/GitHub",
+        "uri": "/modelPublish/destinations/GitHub",
+        "type": "application/vnd.sas.models.publishing.destination"
+      },
+      {
+        "method": "GET",
+        "rel": "getGitFolders",
+        "href": "/modelPublish/destinations/GitHub/gitFolders",
+        "uri": "/modelPublish/destinations/GitHub/gitFolders",
+        "type": "application/vnd.sas.collection"
+      }
+    ]
+  },
+  "content": {
+    "creationTimeStamp": "0001-01-01T00:00:00Z",
+    "modifiedTimeStamp": "0001-01-01T00:00:00Z",
+    "modelName": "autoAuctionDec1_0",
+    "codeType": "ds2",
+    "codeURI": "/decisions/flows/27090e76-8e7f-4e2c-9ede-02c862ee8853/revisions/cd4adb7f-5f5f-4a2e-9206-776c8297e85c/code?rootPackageName=autoAuctionDec1_0\u0026lookupMode=INLINE\u0026treatmentGroupMode=INLINE\u0026globalVariableMode=INLINE\u0026traversedPathFlag=false\u0026isGeneratingRuleFiredColumn=false\u0026codeTarget=gitMas",
+    "codeMediaType": "text/vnd.sas.source.ds2.async",
+    "sourceURI": "/decisions/flows/27090e76-8e7f-4e2c-9ede-02c862ee8853/revisions/cd4adb7f-5f5f-4a2e-9206-776c8297e85c",
+    "publishLevel": "decision"
+  },
+  "properties": {
+    "gitFolderPath": "autoAuctionDec1_0",
+    "gitRepositoryURL": "https://github.com/VinKoe/sas-viya-az-devops.git"
+  },
+  "sourceURI": "/decisions/flows/27090e76-8e7f-4e2c-9ede-02c862ee8853/revisions/cd4adb7f-5f5f-4a2e-9206-776c8297e85c",
+  "resources": [
+    {
+      "creationTimeStamp": "2023-11-27T13:21:47.772Z",
+      "createdBy": "geldmui@gelenable.sas.com",
+      "modifiedTimeStamp": "2023-11-27T13:21:47.772Z",
+      "modifiedBy": "geldmui@gelenable.sas.com",
+      "name": "Linear Regression (Pipeline 1)",
+      "uri": "/modelRepository/models/873a3528-7945-4e3a-80dc-11f93f56b5d1",
+      "mediaType": "application/vnd.sas.models.model",
+      "contentVersion": "1.1",
+      "inline": true
+    },
+    {
+      "creationTimeStamp": "2023-11-27T11:17:01.316Z",
+      "createdBy": "geldmui@gelenable.sas.com",
+      "modifiedTimeStamp": "2023-11-27T13:26:48.493Z",
+      "modifiedBy": "geldmui@gelenable.sas.com",
+      "name": "unwantedMakes",
+      "uri": "/referenceData/domains/c465d8fa-aba2-43f1-a2a3-626d61fe21a1/contents/178d20f1-70d9-4138-aa4f-716ad2d6d39c",
+      "mediaType": "application/vnd.sas.data.reference.domain",
+      "contentVersion": "1.1",
+      "inline": true
+    },
+    {
+      "creationTimeStamp": "2023-11-27T13:05:49.952Z",
+      "createdBy": "geldmui@gelenable.sas.com",
+      "modifiedTimeStamp": "2023-11-27T13:06:18.817Z",
+      "modifiedBy": "geldmui@gelenable.sas.com",
+      "name": "californiaOverride",
+      "uri": "/decisions/codeFiles/4eb2121a-9503-4d16-9f01-c761f88214e6/revisions/de7944d7-9ca0-438c-954c-e6c08055bd78",
+      "mediaType": "application/vnd.sas.decision.code.file",
+      "contentVersion": "1.0",
+      "inline": true
+    },
+    {
+      "creationTimeStamp": "2023-11-27T11:19:57.843Z",
+      "createdBy": "geldmui@gelenable.sas.com",
+      "modifiedTimeStamp": "2023-11-27T11:26:21.591Z",
+      "modifiedBy": "geldmui@gelenable.sas.com",
+      "name": "autoAuctionMake",
+      "uri": "/businessRules/ruleSets/78c92f4d-7aeb-43c8-a730-3a06308fdbb8/revisions/01086e05-02ba-4e80-8ba6-e36caae58215",
+      "mediaType": "application/vnd.sas.business.rule.set",
+      "contentVersion": "1.0",
+      "inline": true
+    },
+    {
+      "creationTimeStamp": "2023-11-27T11:18:31.414Z",
+      "createdBy": "geldmui@gelenable.sas.com",
+      "modifiedTimeStamp": "2023-11-27T13:26:37.442Z",
+      "modifiedBy": "geldmui@gelenable.sas.com",
+      "name": "bidCommands",
+      "uri": "/referenceData/domains/4cbc4b52-8e62-4cfa-877c-fce4c47e1708/contents/5e6e98f8-7b3d-4fef-984e-d25603fa8f6b",
+      "mediaType": "application/vnd.sas.data.reference.domain",
+      "contentVersion": "1.1",
+      "inline": true
+    },
+    {
+      "creationTimeStamp": "2023-11-27T10:30:48.615Z",
+      "createdBy": "geldmui@gelenable.sas.com",
+      "modifiedTimeStamp": "2023-11-27T10:42:42.647Z",
+      "modifiedBy": "geldmui@gelenable.sas.com",
+      "name": "autoAuction",
+      "uri": "/businessRules/ruleSets/99fff56f-43f4-4e73-b4b9-0c03a0dd8c39/revisions/83e222b2-85b0-4f9e-872d-494add2374fc",
+      "mediaType": "application/vnd.sas.business.rule.set",
+      "contentVersion": "1.0",
+      "inline": true
+    }
+  ],
+  "inputVariables": [
+    {
+      "name": "BlueBookPrice",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "CurrentBid",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "Make",
+      "description": "",
+      "role": "",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 20
+    },
+    {
+      "name": "Miles",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "Model",
+      "description": "",
+      "role": "",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 20
+    },
+    {
+      "name": "OriginalInvoice",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "OriginalMSRP",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "state",
+      "description": "",
+      "role": "",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 2
+    },
+    {
+      "name": "VIN",
+      "description": "",
+      "role": "",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 17
+    },
+    {
+      "name": "Year",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    }
+  ],
+  "outputVariables": [
+    {
+      "name": "Bid",
+      "description": "Whether we want to bid or not",
+      "role": "",
+      "type": "boolean",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "BlueBookPrice",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "callOffice",
+      "description": "call for help",
+      "role": "",
+      "type": "boolean",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "CurrentBid",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "Make",
+      "description": "",
+      "role": "",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 20
+    },
+    {
+      "name": "Miles",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "Model",
+      "description": "",
+      "role": "",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 20
+    },
+    {
+      "name": "OriginalInvoice",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "OriginalMSRP",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "state",
+      "description": "",
+      "role": "",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 2
+    },
+    {
+      "name": "VIN",
+      "description": "",
+      "role": "",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 17
+    },
+    {
+      "name": "Year",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "bidCommand",
+      "description": "",
+      "role": "",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "EM_PREDICTION",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "P_BlueBookPrice",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    }
+  ],
+  "component": {
+    "majorVersion": 1,
+    "name": "autoAuctionDec"
+  },
+  "product": {
+    "majorVersion": 3,
+    "minorVersion": 110,
+    "versionName": "3.110.6",
+    "name": "Decisions Service"
+  },
+  "service": {
+    "name": "Model Publish service"
+  },
+  "baseImage": {}
+}
