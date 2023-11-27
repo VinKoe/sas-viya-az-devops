@@ -1,0 +1,103 @@
+[
+    {
+        "id" : "78c92f4d-7aeb-43c8-a730-3a06308fdbb8",
+        "name" : "autoAuctionMake",
+        "type" : "application/vnd.sas.business.rule.set",
+        "versionId" : "01086e05-02ba-4e80-8ba6-e36caae58215",
+        "versionName" : "1.0",
+        "activeVersionReference" : false,
+        "referencingDecisions" : [
+            {
+                "id" : "27090e76-8e7f-4e2c-9ede-02c862ee8853",
+                "name" : "autoAuctionDec",
+                "versionId" : "cd4adb7f-5f5f-4a2e-9206-776c8297e85c"
+            }
+        ],
+        "customContext" : false,
+        "customContextMicroAnalytics" : false
+    },
+    {
+        "id" : "873a3528-7945-4e3a-80dc-11f93f56b5d1",
+        "name" : "Linear Regression (Pipeline 1)",
+        "type" : "application/vnd.sas.models.model",
+        "versionName" : "",
+        "activeVersionReference" : false,
+        "referencingDecisions" : [
+            {
+                "id" : "27090e76-8e7f-4e2c-9ede-02c862ee8853",
+                "name" : "autoAuctionDec",
+                "versionId" : "cd4adb7f-5f5f-4a2e-9206-776c8297e85c"
+            }
+        ],
+        "customContext" : false,
+        "customContextMicroAnalytics" : false
+    },
+    {
+        "id" : "4eb2121a-9503-4d16-9f01-c761f88214e6",
+        "name" : "californiaOverride",
+        "type" : "application/vnd.sas.decision.code.file",
+        "versionId" : "de7944d7-9ca0-438c-954c-e6c08055bd78",
+        "versionName" : "1.0",
+        "activeVersionReference" : false,
+        "referencingDecisions" : [
+            {
+                "id" : "27090e76-8e7f-4e2c-9ede-02c862ee8853",
+                "name" : "autoAuctionDec",
+                "versionId" : "cd4adb7f-5f5f-4a2e-9206-776c8297e85c"
+            }
+        ],
+        "customContext" : false,
+        "customContextMicroAnalytics" : false
+    },
+    {
+        "id" : "99fff56f-43f4-4e73-b4b9-0c03a0dd8c39",
+        "name" : "autoAuction",
+        "type" : "application/vnd.sas.business.rule.set",
+        "versionId" : "83e222b2-85b0-4f9e-872d-494add2374fc",
+        "versionName" : "1.0",
+        "activeVersionReference" : false,
+        "referencingDecisions" : [
+            {
+                "id" : "27090e76-8e7f-4e2c-9ede-02c862ee8853",
+                "name" : "autoAuctionDec",
+                "versionId" : "cd4adb7f-5f5f-4a2e-9206-776c8297e85c"
+            }
+        ],
+        "customContext" : false,
+        "customContextMicroAnalytics" : false
+    },
+    {
+        "id" : "c465d8fa-aba2-43f1-a2a3-626d61fe21a1",
+        "name" : "unwantedMakes",
+        "type" : "application/vnd.sas.business.rule.lookup",
+        "versionId" : "178d20f1-70d9-4138-aa4f-716ad2d6d39c",
+        "versionName" : "1.1",
+        "activeVersionReference" : true,
+        "referencingDecisions" : [
+            {
+                "id" : "27090e76-8e7f-4e2c-9ede-02c862ee8853",
+                "name" : "autoAuctionDec",
+                "versionId" : "cd4adb7f-5f5f-4a2e-9206-776c8297e85c"
+            }
+        ],
+        "customContext" : false,
+        "customContextMicroAnalytics" : false
+    },
+    {
+        "id" : "4cbc4b52-8e62-4cfa-877c-fce4c47e1708",
+        "name" : "bidCommands",
+        "type" : "application/vnd.sas.business.rule.lookup",
+        "versionId" : "5e6e98f8-7b3d-4fef-984e-d25603fa8f6b",
+        "versionName" : "1.1",
+        "activeVersionReference" : true,
+        "referencingDecisions" : [
+            {
+                "id" : "27090e76-8e7f-4e2c-9ede-02c862ee8853",
+                "name" : "autoAuctionDec",
+                "versionId" : "cd4adb7f-5f5f-4a2e-9206-776c8297e85c"
+            }
+        ],
+        "customContext" : false,
+        "customContextMicroAnalytics" : false
+    }
+]

@@ -1,0 +1,15 @@
+{
+    "creationTimeStamp" : "2023-11-27T12:56:29.138Z",
+    "modifiedTimeStamp" : "2023-11-27T13:41:11.049Z",
+    "createdBy" : "geldmui@gelenable.sas.com",
+    "modifiedBy" : "geldmui@gelenable.sas.com",
+    "id" : "cd4adb7f-5f5f-4a2e-9206-776c8297e85c",
+    "description" : "Decision from excersice 3_61",
+    "majorRevision" : 1,
+    "minorRevision" : 0,
+    "signature" : [ ],
+    "decisionId" : "27090e76-8e7f-4e2c-9ede-02c862ee8853",
+    "nodeCount" : 5,
+    "checkout" : false,
+    "version" : 17
+}
