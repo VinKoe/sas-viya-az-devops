@@ -1,0 +1,134 @@
+{
+    "creationTimeStamp" : "2023-12-01T12:56:28.455Z",
+    "modifiedTimeStamp" : "2023-12-01T12:56:28.635Z",
+    "createdBy" : "geldmui@gelenable.sas.com",
+    "modifiedBy" : "geldmui@gelenable.sas.com",
+    "id" : "f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46",
+    "name" : "autoAuction",
+    "majorRevision" : 1,
+    "minorRevision" : 0,
+    "locked" : false,
+    "links" : [
+        {
+            "method" : "GET",
+            "rel" : "self",
+            "href" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46",
+            "uri" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46",
+            "type" : "application/vnd.sas.business.rule.set"
+        },
+        {
+            "method" : "GET",
+            "rel" : "alternate",
+            "href" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46",
+            "uri" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46",
+            "type" : "application/vnd.sas.summary"
+        },
+        {
+            "method" : "GET",
+            "rel" : "withRules",
+            "href" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46",
+            "uri" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46",
+            "type" : "application/vnd.sas.business.rule.set.integral"
+        },
+        {
+            "method" : "PUT",
+            "rel" : "update",
+            "href" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46",
+            "uri" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46",
+            "type" : "application/vnd.sas.business.rule.set",
+            "responseType" : "application/vnd.sas.business.rule.set"
+        },
+        {
+            "method" : "DELETE",
+            "rel" : "delete",
+            "href" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46",
+            "uri" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46"
+        },
+        {
+            "method" : "GET",
+            "rel" : "rules",
+            "href" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46/rules",
+            "uri" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46/rules",
+            "type" : "application/vnd.sas.collection",
+            "itemType" : "application/vnd.sas.business.rule"
+        },
+        {
+            "method" : "GET",
+            "rel" : "rulesOrder",
+            "href" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46/order",
+            "uri" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46/order",
+            "type" : "application/vnd.sas.selection"
+        },
+        {
+            "method" : "GET",
+            "rel" : "revisions",
+            "href" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46/revisions",
+            "uri" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46/revisions",
+            "type" : "application/vnd.sas.collection",
+            "itemType" : "application/vnd.sas.business.rule.set"
+        },
+        {
+            "method" : "POST",
+            "rel" : "createMinorRevision",
+            "href" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46/revisions?revisionType=minor",
+            "uri" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46/revisions?revisionType=minor",
+            "type" : "application/vnd.sas.business.rule.set",
+            "responseType" : "application/vnd.sas.business.rule.set"
+        },
+        {
+            "method" : "POST",
+            "rel" : "createMajorRevision",
+            "href" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46/revisions?revisionType=major",
+            "uri" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46/revisions?revisionType=major",
+            "type" : "application/vnd.sas.business.rule.set",
+            "responseType" : "application/vnd.sas.business.rule.set"
+        },
+        {
+            "method" : "GET",
+            "rel" : "up",
+            "href" : "/businessRules/ruleSets",
+            "uri" : "/businessRules/ruleSets",
+            "type" : "application/vnd.sas.collection",
+            "itemType" : "application/vnd.sas.business.rule.set"
+        },
+        {
+            "method" : "GET",
+            "rel" : "code",
+            "href" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46/code",
+            "uri" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46/code",
+            "type" : "text/vnd.sas.source.ds2"
+        },
+        {
+            "method" : "POST",
+            "rel" : "mappedCode",
+            "href" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46/mappedCode",
+            "uri" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46/mappedCode",
+            "type" : "application/vnd.sas.score.code.generation.request",
+            "responseType" : "application/vnd.sas.score.mapped.code"
+        },
+        {
+            "method" : "POST",
+            "rel" : "analysisCode",
+            "href" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46/analysisCode",
+            "uri" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46/analysisCode",
+            "type" : "application/vnd.sas.score.analysis.code.generation.request",
+            "responseType" : "application/vnd.sas.score.analysis.code"
+        },
+        {
+            "method" : "GET",
+            "rel" : "metadataDocuments",
+            "href" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46/metadataDocuments",
+            "uri" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46/metadataDocuments",
+            "type" : "application/zip"
+        },
+        {
+            "method" : "GET",
+            "rel" : "legacyVariables",
+            "href" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46/legacyVariables",
+            "uri" : "/businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46/legacyVariables",
+            "type" : "application/vnd.sas.collection",
+            "itemType" : "application/vnd.sas.business.rule.set.variable+json"
+        }
+    ],
+    "version" : 1
+}

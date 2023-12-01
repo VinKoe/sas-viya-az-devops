@@ -1,0 +1,258 @@
+{
+    "inputs" : [
+        {
+            "creationTimeStamp" : "2023-12-01T12:56:28.556Z",
+            "modifiedTimeStamp" : "2023-12-01T12:56:28.556Z",
+            "createdBy" : "geldmui@gelenable.sas.com",
+            "modifiedBy" : "geldmui@gelenable.sas.com",
+            "id" : "f71bb9c0-c9bc-4530-a15a-007291d64203",
+            "name" : "BlueBookPrice",
+            "dataType" : "decimal",
+            "direction" : "inOut",
+            "generateDataGridColumns" : false
+        },
+        {
+            "creationTimeStamp" : "2023-12-01T12:56:28.570Z",
+            "modifiedTimeStamp" : "2023-12-01T12:56:28.570Z",
+            "createdBy" : "geldmui@gelenable.sas.com",
+            "modifiedBy" : "geldmui@gelenable.sas.com",
+            "id" : "59404c55-5a26-4758-472d-8fb00be6a935",
+            "name" : "CurrentBid",
+            "dataType" : "decimal",
+            "direction" : "inOut",
+            "generateDataGridColumns" : false
+        },
+        {
+            "creationTimeStamp" : "2023-12-01T12:56:28.572Z",
+            "modifiedTimeStamp" : "2023-12-01T12:56:28.572Z",
+            "createdBy" : "geldmui@gelenable.sas.com",
+            "modifiedBy" : "geldmui@gelenable.sas.com",
+            "id" : "b74f86cc-2e5c-4c95-8bb6-1069da5c17d3",
+            "name" : "Miles",
+            "dataType" : "decimal",
+            "direction" : "inOut",
+            "generateDataGridColumns" : false
+        },
+        {
+            "creationTimeStamp" : "2023-12-01T12:56:28.573Z",
+            "modifiedTimeStamp" : "2023-12-01T12:56:28.573Z",
+            "createdBy" : "geldmui@gelenable.sas.com",
+            "modifiedBy" : "geldmui@gelenable.sas.com",
+            "id" : "7423efc8-4f08-42f7-083d-fc3ef31c6c82",
+            "name" : "OriginalInvoice",
+            "dataType" : "decimal",
+            "direction" : "inOut",
+            "generateDataGridColumns" : false
+        },
+        {
+            "creationTimeStamp" : "2023-12-01T12:56:28.574Z",
+            "modifiedTimeStamp" : "2023-12-01T12:56:28.574Z",
+            "createdBy" : "geldmui@gelenable.sas.com",
+            "modifiedBy" : "geldmui@gelenable.sas.com",
+            "id" : "b2721772-f461-4310-7fae-3b1f653aedc1",
+            "name" : "OriginalMSRP",
+            "dataType" : "decimal",
+            "direction" : "inOut",
+            "generateDataGridColumns" : false
+        },
+        {
+            "creationTimeStamp" : "2023-12-01T12:56:28.576Z",
+            "modifiedTimeStamp" : "2023-12-01T12:56:28.576Z",
+            "createdBy" : "geldmui@gelenable.sas.com",
+            "modifiedBy" : "geldmui@gelenable.sas.com",
+            "id" : "5cfd428c-5264-407f-0727-4346b5b42184",
+            "name" : "Year",
+            "dataType" : "decimal",
+            "direction" : "inOut",
+            "generateDataGridColumns" : false
+        },
+        {
+            "creationTimeStamp" : "2023-12-01T12:56:28.579Z",
+            "modifiedTimeStamp" : "2023-12-01T12:56:28.579Z",
+            "createdBy" : "geldmui@gelenable.sas.com",
+            "modifiedBy" : "geldmui@gelenable.sas.com",
+            "id" : "3864188b-f870-44bb-4990-029e98d8596b",
+            "name" : "VIN",
+            "dataType" : "string",
+            "direction" : "inOut",
+            "length" : 17,
+            "generateDataGridColumns" : false
+        },
+        {
+            "creationTimeStamp" : "2023-12-01T12:56:28.580Z",
+            "modifiedTimeStamp" : "2023-12-01T12:56:28.580Z",
+            "createdBy" : "geldmui@gelenable.sas.com",
+            "modifiedBy" : "geldmui@gelenable.sas.com",
+            "id" : "5a52d8af-3fc6-4311-f353-8ce601b2b180",
+            "name" : "Model",
+            "dataType" : "string",
+            "direction" : "inOut",
+            "length" : 20,
+            "generateDataGridColumns" : false
+        },
+        {
+            "creationTimeStamp" : "2023-12-01T12:56:28.581Z",
+            "modifiedTimeStamp" : "2023-12-01T12:56:28.581Z",
+            "createdBy" : "geldmui@gelenable.sas.com",
+            "modifiedBy" : "geldmui@gelenable.sas.com",
+            "id" : "efbdf062-206b-4c6e-dfdf-b35801d75607",
+            "name" : "state",
+            "dataType" : "string",
+            "direction" : "inOut",
+            "length" : 2,
+            "generateDataGridColumns" : false
+        },
+        {
+            "creationTimeStamp" : "2023-12-01T12:56:28.582Z",
+            "modifiedTimeStamp" : "2023-12-01T12:56:28.582Z",
+            "createdBy" : "geldmui@gelenable.sas.com",
+            "modifiedBy" : "geldmui@gelenable.sas.com",
+            "id" : "f2d7393e-e185-48db-b168-537bdd6e06c7",
+            "name" : "Make",
+            "dataType" : "string",
+            "direction" : "inOut",
+            "length" : 20,
+            "generateDataGridColumns" : false
+        }
+    ],
+    "outputs" : [
+        {
+            "creationTimeStamp" : "2023-12-01T12:56:28.556Z",
+            "modifiedTimeStamp" : "2023-12-01T12:56:28.556Z",
+            "createdBy" : "geldmui@gelenable.sas.com",
+            "modifiedBy" : "geldmui@gelenable.sas.com",
+            "id" : "f71bb9c0-c9bc-4530-a15a-007291d64203",
+            "name" : "BlueBookPrice",
+            "dataType" : "decimal",
+            "direction" : "inOut",
+            "generateDataGridColumns" : false
+        },
+        {
+            "creationTimeStamp" : "2023-12-01T12:56:28.570Z",
+            "modifiedTimeStamp" : "2023-12-01T12:56:28.570Z",
+            "createdBy" : "geldmui@gelenable.sas.com",
+            "modifiedBy" : "geldmui@gelenable.sas.com",
+            "id" : "59404c55-5a26-4758-472d-8fb00be6a935",
+            "name" : "CurrentBid",
+            "dataType" : "decimal",
+            "direction" : "inOut",
+            "generateDataGridColumns" : false
+        },
+        {
+            "creationTimeStamp" : "2023-12-01T12:56:28.572Z",
+            "modifiedTimeStamp" : "2023-12-01T12:56:28.572Z",
+            "createdBy" : "geldmui@gelenable.sas.com",
+            "modifiedBy" : "geldmui@gelenable.sas.com",
+            "id" : "b74f86cc-2e5c-4c95-8bb6-1069da5c17d3",
+            "name" : "Miles",
+            "dataType" : "decimal",
+            "direction" : "inOut",
+            "generateDataGridColumns" : false
+        },
+        {
+            "creationTimeStamp" : "2023-12-01T12:56:28.573Z",
+            "modifiedTimeStamp" : "2023-12-01T12:56:28.573Z",
+            "createdBy" : "geldmui@gelenable.sas.com",
+            "modifiedBy" : "geldmui@gelenable.sas.com",
+            "id" : "7423efc8-4f08-42f7-083d-fc3ef31c6c82",
+            "name" : "OriginalInvoice",
+            "dataType" : "decimal",
+            "direction" : "inOut",
+            "generateDataGridColumns" : false
+        },
+        {
+            "creationTimeStamp" : "2023-12-01T12:56:28.574Z",
+            "modifiedTimeStamp" : "2023-12-01T12:56:28.574Z",
+            "createdBy" : "geldmui@gelenable.sas.com",
+            "modifiedBy" : "geldmui@gelenable.sas.com",
+            "id" : "b2721772-f461-4310-7fae-3b1f653aedc1",
+            "name" : "OriginalMSRP",
+            "dataType" : "decimal",
+            "direction" : "inOut",
+            "generateDataGridColumns" : false
+        },
+        {
+            "creationTimeStamp" : "2023-12-01T12:56:28.576Z",
+            "modifiedTimeStamp" : "2023-12-01T12:56:28.576Z",
+            "createdBy" : "geldmui@gelenable.sas.com",
+            "modifiedBy" : "geldmui@gelenable.sas.com",
+            "id" : "5cfd428c-5264-407f-0727-4346b5b42184",
+            "name" : "Year",
+            "dataType" : "decimal",
+            "direction" : "inOut",
+            "generateDataGridColumns" : false
+        },
+        {
+            "creationTimeStamp" : "2023-12-01T12:56:28.577Z",
+            "modifiedTimeStamp" : "2023-12-01T12:56:28.577Z",
+            "createdBy" : "geldmui@gelenable.sas.com",
+            "modifiedBy" : "geldmui@gelenable.sas.com",
+            "id" : "379b20a2-fa45-437e-301f-64d2190785fe",
+            "name" : "Bid",
+            "dataType" : "boolean",
+            "direction" : "output",
+            "description" : "",
+            "generateDataGridColumns" : false
+        },
+        {
+            "creationTimeStamp" : "2023-12-01T12:56:28.578Z",
+            "modifiedTimeStamp" : "2023-12-01T12:56:28.578Z",
+            "createdBy" : "geldmui@gelenable.sas.com",
+            "modifiedBy" : "geldmui@gelenable.sas.com",
+            "id" : "17be920b-731d-4b85-dfeb-52d26f1241ef",
+            "name" : "callOffice",
+            "dataType" : "boolean",
+            "direction" : "output",
+            "description" : "",
+            "generateDataGridColumns" : false
+        },
+        {
+            "creationTimeStamp" : "2023-12-01T12:56:28.579Z",
+            "modifiedTimeStamp" : "2023-12-01T12:56:28.579Z",
+            "createdBy" : "geldmui@gelenable.sas.com",
+            "modifiedBy" : "geldmui@gelenable.sas.com",
+            "id" : "3864188b-f870-44bb-4990-029e98d8596b",
+            "name" : "VIN",
+            "dataType" : "string",
+            "direction" : "inOut",
+            "length" : 17,
+            "generateDataGridColumns" : false
+        },
+        {
+            "creationTimeStamp" : "2023-12-01T12:56:28.580Z",
+            "modifiedTimeStamp" : "2023-12-01T12:56:28.580Z",
+            "createdBy" : "geldmui@gelenable.sas.com",
+            "modifiedBy" : "geldmui@gelenable.sas.com",
+            "id" : "5a52d8af-3fc6-4311-f353-8ce601b2b180",
+            "name" : "Model",
+            "dataType" : "string",
+            "direction" : "inOut",
+            "length" : 20,
+            "generateDataGridColumns" : false
+        },
+        {
+            "creationTimeStamp" : "2023-12-01T12:56:28.581Z",
+            "modifiedTimeStamp" : "2023-12-01T12:56:28.581Z",
+            "createdBy" : "geldmui@gelenable.sas.com",
+            "modifiedBy" : "geldmui@gelenable.sas.com",
+            "id" : "efbdf062-206b-4c6e-dfdf-b35801d75607",
+            "name" : "state",
+            "dataType" : "string",
+            "direction" : "inOut",
+            "length" : 2,
+            "generateDataGridColumns" : false
+        },
+        {
+            "creationTimeStamp" : "2023-12-01T12:56:28.582Z",
+            "modifiedTimeStamp" : "2023-12-01T12:56:28.582Z",
+            "createdBy" : "geldmui@gelenable.sas.com",
+            "modifiedBy" : "geldmui@gelenable.sas.com",
+            "id" : "f2d7393e-e185-48db-b168-537bdd6e06c7",
+            "name" : "Make",
+            "dataType" : "string",
+            "direction" : "inOut",
+            "length" : 20,
+            "generateDataGridColumns" : false
+        }
+    ]
+}

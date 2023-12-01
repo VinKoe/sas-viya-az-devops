@@ -1,0 +1,1 @@
+autoAuction1_0 published from /businessRules/ruleSets/f1bc1cea-46a4-4ab7-9e2b-0cf076ba2b46/revisions/d7a62d14-ef7c-4eb1-9706-cc1d43291fe0 at 2023-12-01 14:16:27.920448327 +0000 UTC m=+147600.195137645 by geldmui@gelenable.sas.com. Branch: main Tag: v2023.1201.1

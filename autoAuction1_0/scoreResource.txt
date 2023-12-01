@@ -1,0 +1,76 @@
+/* Rule Set autoAuction version 1.0 generated on Fri Dec 01 14:16:27 UTC 2023 */
+
+DS2_OPTIONS LOGICALEXPR = STANDARD;
+DS2_OPTIONS SCOND = WARNING;
+DS2_OPTIONS MISSING_NOTE;
+
+/* {PACKAGE_START} */
+  package autoAuction1_0  / inline;
+
+      dcl package logger _logger('App.SASDCM');
+      dcl package logger logr_variableTrace('App.TableServices.DS2.Runtime.TraceVariables');
+
+        /* ---- RULE FIRED FLAG COUNT = 0 ---- */
+
+    method execute_internal( in_out double "Bid",in_out double "BlueBookPrice",in_out double "callOffice",in_out double "CurrentBid",in_out varchar "Make",in_out double "Miles",in_out varchar "Model",in_out double "OriginalInvoice",in_out double "OriginalMSRP",in_out varchar "state",in_out varchar "VIN",in_out double "Year");
+
+;
+         "Bid" = 0 ;
+
+         "callOffice" = 0 ;
+
+         if ("Miles" < 50000.0) then do;
+         "Bid" = 1 ;
+
+goto "end_a4bfb421-cb9c-48ba-8e0b-0cba5de5c324";
+end;
+         if ("CurrentBid" < 1.2 * "BlueBookPrice") AND ("Miles" < 20000.0) then do;
+         "Bid" = 1 ;
+
+         end;
+
+         "end_a4bfb421-cb9c-48ba-8e0b-0cba5de5c324":
+
+      rule_end:  /* label for rule RETURN action */
+    end;
+
+   method execute( double "BlueBookPrice_",double "CurrentBid_",varchar(20) "Make_",double "Miles_",varchar(20) "Model_",double "OriginalInvoice_",double "OriginalMSRP_",varchar(2) "state_",varchar(17) "VIN_",double "Year_",in_out double "Bid",in_out double "BlueBookPrice",in_out double "callOffice",in_out double "CurrentBid",in_out varchar "Make",in_out double "Miles",in_out varchar "Model",in_out double "OriginalInvoice",in_out double "OriginalMSRP",in_out varchar "state",in_out varchar "VIN",in_out double "Year");
+      "BlueBookPrice" = "BlueBookPrice_"; 
+
+      "CurrentBid" = "CurrentBid_"; 
+
+      "Make" = "Make_"; 
+
+      "Miles" = "Miles_"; 
+
+      "Model" = "Model_"; 
+
+      "OriginalInvoice" = "OriginalInvoice_"; 
+
+      "OriginalMSRP" = "OriginalMSRP_"; 
+
+      "state" = "state_"; 
+
+      "VIN" = "VIN_"; 
+
+      "Year" = "Year_"; 
+
+      execute_internal(
+        "Bid"
+      , "BlueBookPrice"
+      , "callOffice"
+      , "CurrentBid"
+      , "Make"
+      , "Miles"
+      , "Model"
+      , "OriginalInvoice"
+      , "OriginalMSRP"
+      , "state"
+      , "VIN"
+      , "Year"
+);
+
+    end;
+
+/* {PACKAGE_END} */
+  endpackage;
